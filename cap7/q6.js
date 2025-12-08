@@ -1,0 +1,9 @@
+
+function imprimirPrimeiroEUltimoNome(nomeCompleto) {
+    let nomes = nomeCompleto.split(" ");
+    let primeiroNome = nomes[0];
+    let ultimoNome = nomes[nomes.length - 1];
+    console.log("Primeiro nome:", primeiroNome);
+    console.log("Último nome:", ultimoNome);
+}
+imprimirPrimeiroEUltimoNome("Mateus Levy de Sousa Dantas");

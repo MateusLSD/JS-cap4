@@ -1,0 +1,2 @@
+let numero = parseInt(prompt("Digite um número:"));
+console.log(numero);
